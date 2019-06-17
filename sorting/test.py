@@ -1,5 +1,5 @@
 import random
-from sorting import selection_sort
+from sorting import selection_sort, bubble_sort
 
 
 any_numbers = random.sample(range(1, 1000), 42)
@@ -15,6 +15,6 @@ repeated = [7, 7, 7, 7, 7, 1, 1, 9, 9, 0, 4, 4, 4, 5, 4, 5, 7, 1,]
 if __name__ == "__main__":
     lista = repeated
     print(lista)
-    selection_sort(lista)
+    bubble_sort(lista)
     print("\n Ordenado:")
     print(lista)
